@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/matthewbrown8699russellford/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/181)) ([e02b06e](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/e02b06e91fcfe8c9c25607f394301833fa2edd9a))
+* Add cross-chain calldata display component ([#291](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/291)) ([f9795e7](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/f9795e782f6279e09ce525dcb1f7b43a936f6efc))
+* Add dry run API support for transaction simulation ([#207](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/207)) ([ab159ab](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/ab159abf7b72d47756d3f8d01aa0dee96730b77b))
+* Add notification center feature ([#282](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/282)) ([de1d0c4](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/de1d0c44b72376b9662b6c3eeb5cc75fc53a27fe))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/171)) ([2be1b4c](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2be1b4ca02f5ad966fdbdd56fb891ddb166d2e0d))
+* Add remote proxy support ([#236](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/236)) ([3e4c7f4](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/3e4c7f42e4b3b52897d3a2b72ad91c09cbdb7cd4))
+* add transaction subscription functionality ([#213](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/213)) ([d907bf7](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/d907bf7b5b0b8f7ee9fb0a69ec28298fbfbc045c))
+* Add zkVerify testnet supported ([#251](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/251)) ([4e7b861](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/4e7b8614ef052625fb1445ae64c95bcfa62c66ac))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/198)) ([5521817](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/5521817c89b4e45508acfdf46c8bef37e1b0132c))
+* Improve UI display and user experience ([#218](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/218)) ([9948f33](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/9948f33ee5af79d03b7816476c219866dd88de90))
+* Optimize balance retrieval logic ([#311](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/311)) ([f7ea088](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/f7ea0881944b3b966dea4913242e4c7e46add596))
+* remove assethub next westend network ([#232](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/232)) ([c462c9d](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/c462c9d48e304cdcbd489a37966ca3996e5dd6a6))
+* remove batch restore functionality ([#204](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/204)) ([a12697b](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/a12697b014cb3447066040d2eed8c9ed448a4111))
+* subscribe wallet accounts changed ([#176](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/176)) ([07b728d](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/07b728d493c2257d9a5a6294d98c883ed0fdad4c))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/261)) ([165bfd8](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/165bfd8867a17c6c0f053923d9f0ae4ecb8f098b))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/267)) ([7adc965](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/7adc96509951a9abc8e8da6741fa2b36d5e3ac20))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 

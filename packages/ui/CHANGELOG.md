@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/matthewbrown8699russellford/mimir-wallet/compare/ui-v2.32.0...ui-v3.0.0) (2025-10-17)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/319)) ([2d7180c](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2d7180c8a552dd16bd3873fc65441c13bff7b703))
+* Add cross-chain calldata display component ([#291](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/291)) ([f9795e7](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/f9795e782f6279e09ce525dcb1f7b43a936f6efc))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/285)) ([8c326ac](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/8c326ac79d07443c1ee0041e7c2d9189d6dc7053))
+* Add dry run API support for transaction simulation ([#207](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/207)) ([ab159ab](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/ab159abf7b72d47756d3f8d01aa0dee96730b77b))
+* add global account search and refactor UI components ([#167](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/167)) ([7427e77](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/7427e7772c18c0eab76dd5df6da9583440da504c))
+* Add notification center feature ([#282](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/282)) ([de1d0c4](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/de1d0c44b72376b9662b6c3eeb5cc75fc53a27fe))
+* add permission check when submit transaction ([#164](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/164)) ([8c29631](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/8c29631f127ba4032a650e8f7e6d6c77eb45f66e))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/171)) ([2be1b4c](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2be1b4ca02f5ad966fdbdd56fb891ddb166d2e0d))
+* Add sonner to replace react-toastify ([#280](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/280)) ([719be26](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/719be265657b2a05e75619c42e861ab78ace0ab4))
+* add template detail view functionality ([#174](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/174)) ([01a12cb](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/01a12cbd8b507bb875fab3411d75646c32dee229))
+* Add zkVerify testnet supported ([#251](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/251)) ([4e7b861](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/4e7b8614ef052625fb1445ae64c95bcfa62c66ac))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/215)) ([2276a21](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2276a2175f7e6d10a71b67c398b6d5f0165efb5c))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/254)) ([2009999](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2009999147dc86836034cc2945225087d3567491))
+* implement AssetHub migration support ([#259](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/259)) ([227e8a3](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/227e8a384c513f06068bb4c292b29b9e0316ea69))
+* Improve UI display and user experience ([#218](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/218)) ([9948f33](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/9948f33ee5af79d03b7816476c219866dd88de90))
+* migrate some ui components to shadcn ([#278](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/278)) ([40e9d4d](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/40e9d4d2b5c7ace93b7b3aa56b20d001705f239c))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/270)) ([af08bc1](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/af08bc1a632f1fd713ed47a626683b6f14b50ed6))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/293)) ([e183a36](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/e183a365793dd2f14375f5ec59487d70375a1756))
+* remove assethub next westend network ([#232](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/232)) ([c462c9d](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/c462c9d48e304cdcbd489a37966ca3996e5dd6a6))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/162)) ([2fd9774](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/2fd977416c67def11f8c6d191805a75fa86395c4))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/261)) ([165bfd8](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/165bfd8867a17c6c0f053923d9f0ae4ecb8f098b))
+
+
+### Bug Fixes
+
+* fix some ui issues ([0e8b9a3](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/0e8b9a3d156b83d2778c3faf42e9083968638c9d))
+* Fix some UI issues ([#257](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/257)) ([7e66da2](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/7e66da2772b82796bb63bf666841d58f906edba4))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/matthewbrown8699russellford/mimir-wallet/issues/165)) ([913387d](https://github.com/matthewbrown8699russellford/mimir-wallet/commit/913387d399893602072261b9612c1e06b5e188b9))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.31.0...ui-v2.32.0) (2025-10-14)
 
 
